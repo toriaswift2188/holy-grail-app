@@ -1,6 +1,6 @@
-<h1 align="center"> Full-Stack Holy Grail Application 🎨 </h1>
+## Full-Stack Holy Grail Application 🎨 
 
-<p align="center"> [Holy grail](https://en.wikipedia.org/wiki/Holy_grail_(web_design)), full stack [Node.js](https://nodejs.org/en/) application with a Redis database. </p>
+[Holy grail](https://en.wikipedia.org/wiki/Holy_grail_(web_design)), full stack [Node.js](https://nodejs.org/en/) application with a Redis database. </p>
 <p>
   The holy grail is a web page layout which has multiple, equal height columns that are defined with style sheets.
 </p>
@@ -11,6 +11,7 @@
   <li>Add an additional package to be able to communicate with Redis, the database that we are running on top of Docker. </li>
 </ul>
 <hr/>
+
 ## Tasks
 <ul>
   <li>Use the Redis client to initialise values for header, left, article, right, and footer. These values should be:
@@ -21,14 +22,13 @@
 </ul>
 
 ## Download and Installation
-Install Redis then run it with src/redis-server
 
- <p><img src="Install_Redis" alt="Installing Redis on Mac" width="400" height="400" align="right" /> Install Redis by the running ```npm install redis``` in your local directory.
-</p>
-<p> To install dependencies for the Node application, run ```npm install``` </p>
-<p> To start running your application on http://localhost:3000, run ```node index.js```
-<p> To test your Redis installation, run ```redis-server``` </p>
-<p> Once Redis is running, you can test it by running: ```redis-cli``` </p>
+-Install Redis by the running ```npm install redis``` in your local directory.
+-![Redis install on Mac]() 
+-To install dependencies for the Node application, run ``` npm install ``` 
+-To start running your application on http://localhost:3000, run ``` node index.js ```
+-To test your Redis installation, run ```redis-server```
+-Once Redis is running, you can test it by running:  ```redis-cli ``` 
 
 ## Learn More
 To learn about Redis, check out the [redis documentation](https://redis.io/documentation) and [installation](https://redis.io/download).
